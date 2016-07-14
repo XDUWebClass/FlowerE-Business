@@ -9,13 +9,6 @@ import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import com.model.TAdmin;
 
-/**
- * Data access object (DAO) for domain model class TAdmin.
- * 
- * @see com.model.TAdmin
- * @author MyEclipse Persistence Tools
- */
-
 public class TAdminDAO extends HibernateDaoSupport {
 	private static final Log log = LogFactory.getLog(TAdminDAO.class);
 
